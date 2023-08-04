@@ -4,7 +4,8 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
-import { Link } from "react-scroll";
+import { Link as Link2} from "react-scroll";
+import Link from 'next/link';
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
@@ -30,7 +31,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2 mt-4">Peam Jo</h2>
-                <p>Cloud Engineer</p>
+                <p>Cloud Engineer / Solutions Architect</p>
                 <p className="py-4">I am available for full-time positions.</p>
               </div>
               <div>
@@ -73,7 +74,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <Link
+          <Link2
             activeClass="active"
             to="home"
             spy={true}
@@ -84,7 +85,7 @@ const Contact = () => {
             <div className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
             </div>
-          </Link>
+          </Link2>
         </div>
       </div>
     </div>

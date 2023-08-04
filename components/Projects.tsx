@@ -13,7 +13,7 @@ const Projects = () => {
           Projects
         </p>
         <h2>What I&apos;ve Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
             title="Deploy a Wordpress Website on AWS"
             backgroundImg={propertyImg}
@@ -32,7 +32,7 @@ const Projects = () => {
           <ProjectItem
             title="Coming Soon..."
             backgroundImg={twitchImg}
-            projectUrl="/property"
+            projectUrl="/"
           />
         </div>
       </div>

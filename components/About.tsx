@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -21,35 +21,34 @@ const About = () => {
           </p>
           <p className="py-2 text-gray-600">
             During my time in the university, I have had the chance to study
-            programming languages, including Python and Java. I also
-            attended classes like{" "}
-            <b className="text-[#5651e5]">Data Science (DATA)</b> and{" "}
-            <b className="text-[#5651e5]">Intermediate Web Making (CS)</b> which
+            programming languages, including Python and Java. I also attended
+            classes like <b className="text-[#5651e5]">Data Science</b> and{" "}
+            <b className="text-[#5651e5]">Intermediate Web Making</b> which
             helped bolster my programming skills.
           </p>
           <p className="py-2 text-gray-600">
             Since graduating, I have had a chance to study about the Cloud on my
             own. Starting from using Docker in my home NAS, into discovering
             AWS, I have gained a massive interest in possibilities of the Cloud.
-            This is why I started studying for and managed to attain the{" "}
+            This is why I started studying for and attained the{" "}
             <b className="text-[#5651e5]">
               CKA (Certified Kubernetes Administrator)
             </b>{" "}
             certificate alongside the{" "}
             <b className="text-[#5651e5]">
-              Amazon Solutions Architect Associate
+              AWS Certified Cloud Practitioner
             </b>{" "}
             certicate.
           </p>
           <p className="py-2 text-gray-600">
-            I aim to start working in the Cloud industry as a Solutions
-            Architect, to not only gain experience in different Clouds, but also
-            develop my skills in communications with business clients and
-            customers who want to transition into or improve their usage of the
-            Cloud.
+            I aim to start working in the Cloud industry as a Cloud Engineer /
+            Solutions Architect, to not only gain experience in different
+            Clouds, but also develop my skills in communications with business
+            clients and customers who want to transition into or improve their
+            usage of the Cloud.
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-cl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-cl shadow-gray-400 rounded-xl hover:scale-105">
           <Image
             className="rounded-xl"
             src="/../public/assets/profile.jpg"
@@ -61,6 +60,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;
