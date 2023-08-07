@@ -15,7 +15,6 @@
     "jsx": "preserve",
     "incremental": true,
     "allowImportingTsExtensions": true,
-    "moduleResolution": "bundler",
     "paths": {
       "@/*": ["./*"],
     }
