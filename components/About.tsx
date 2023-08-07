@@ -12,10 +12,10 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
             After graduating with a degree in Information Science from Cornell
-            University, I started working with my family's company, developing
-            properties around Bangkok. After a few years, I have decided to
-            pursue a career in Cloud Computing, since I believe it is a
-            technology that can be utilized by many existing companies around
+            University, I started working with my family`&apos;`s company,
+            developing properties around Bangkok. After a few years, I have
+            decided to pursue a career in Cloud Computing, since I believe it is
+            a technology that can be utilized by many existing companies around
             the world, increasing their efficiency and improving their
             day-to-day operations.
           </p>
@@ -35,9 +35,7 @@ const About = () => {
               CKA (Certified Kubernetes Administrator)
             </b>{" "}
             certificate alongside the{" "}
-            <b className="text-[#5651e5]">
-              AWS Certified Cloud Practitioner
-            </b>{" "}
+            <b className="text-[#5651e5]">AWS Certified Cloud Practitioner</b>{" "}
             certicate.
           </p>
           <p className="py-2 text-gray-600">
