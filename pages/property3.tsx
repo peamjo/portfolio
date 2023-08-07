@@ -1,4 +1,4 @@
-import Property from "../components/Property.tsx";
+import Property from "../components/Property";
 import project3Img from "../public/assets/projects/project3.png";
 
 const Property3 = () => {
