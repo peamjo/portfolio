@@ -60,7 +60,7 @@ const Navbar = () => {
           duration={500}
         >
           <Image
-            src="/../public/assets/pj_Logo.png"
+            src="/assets/pj_Logo.png"
             alt="/"
             width="100"
             height="50"

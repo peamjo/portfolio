@@ -20,7 +20,7 @@ const Skills = () => {
           />
           <SkillsItem
             skill="Kubernetes"
-            skillImg="/../public/assets/skills/kubernetes.png"
+            skillImg="/assets/skills/kubernetes.png"
             skillUrl="https://kubernetes.io/"
           />
           <SkillsItem
