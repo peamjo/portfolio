@@ -49,7 +49,7 @@ const About = () => {
         <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-cl shadow-gray-400 rounded-xl hover:scale-105">
           <Image
             className="rounded-xl"
-            src="/../public/assets/profile.jpg"
+            src="/../assets/profile.jpg"
             alt="/"
             width="400"
             height="400"
