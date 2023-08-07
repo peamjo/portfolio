@@ -15,57 +15,57 @@ const Skills = () => {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols4">
           <SkillsItem
             skill="Amazon Web Services"
-            skillImg="/../assets/skills/aws.png"
+            skillImg="/assets/skills/aws.png"
             skillUrl="https://aws.amazon.com/"
           />
           <SkillsItem
             skill="Kubernetes"
-            skillImg="/../assets/skills/kubernetes.png"
+            skillImg="/../public/assets/skills/kubernetes.png"
             skillUrl="https://kubernetes.io/"
           />
           <SkillsItem
             skill="Docker"
-            skillImg="/../assets/skills/docker.png"
+            skillImg="/assets/skills/docker.png"
             skillUrl="https://www.docker.com/"
           />
           <SkillsItem
             skill="HTML"
-            skillImg="/../assets/skills/html.png"
+            skillImg="/assets/skills/html.png"
             skillUrl="https://en.wikipedia.org/wiki/HTML"
           />
           <SkillsItem
             skill="CSS"
-            skillImg="/../assets/skills/css.png"
+            skillImg="/assets/skills/css.png"
             skillUrl="https://en.wikipedia.org/wiki/CSS"
           />
           <SkillsItem
             skill="Javascript"
-            skillImg="/../assets/skills/javascript.png"
+            skillImg="/assets/skills/javascript.png"
             skillUrl="https://en.wikipedia.org/wiki/JavaScript"
           />
           <SkillsItem
             skill="React"
-            skillImg="/../assets/skills/react.png"
+            skillImg="/assets/skills/react.png"
             skillUrl="https://react.dev/"
           />
           <SkillsItem
             skill="Next.js"
-            skillImg="/../assets/skills/nextjs.png"
+            skillImg="/assets/skills/nextjs.png"
             skillUrl="https://nextjs.org/"
           />
           <SkillsItem
             skill="Tailwind"
-            skillImg="/../assets/skills/tailwind.png"
+            skillImg="/assets/skills/tailwind.png"
             skillUrl="https://tailwindcss.com/"
           />
           <SkillsItem
             skill="Python"
-            skillImg="/../assets/skills/python.png"
+            skillImg="/assets/skills/python.png"
             skillUrl="https://www.python.org/"
           />
           <SkillsItem
             skill="GitHub"
-            skillImg="/../assets/skills/github1.png"
+            skillImg="/assets/skills/github1.png"
             skillUrl="https://www.github.com/peamjo"
           />
         </div>
