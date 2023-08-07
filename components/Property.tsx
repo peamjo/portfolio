@@ -1,7 +1,7 @@
 import React from "react";
 import propertyImg from "../public/assets/projects/property.jpg";
 import Image from "next/image";
-import {RiRadioButtonFill} from 'react-icons/ri'
+import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { StringLiteral } from "typescript";
 
@@ -9,13 +9,21 @@ interface PropertyProps {
   title: string;
   tech_all: string;
   overview: string;
-  background: Object;
+  background: any;
   demo: string;
   code: string;
   tech_list: Array<string>;
 }
 
-const Property = ({title, tech_all, overview, background, demo, code, tech_list}: PropertyProps) => {
+const Property = ({
+  title,
+  tech_all,
+  overview,
+  background,
+  demo,
+  code,
+  tech_list,
+}: PropertyProps) => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
