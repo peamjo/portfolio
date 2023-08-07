@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import Input from "./Input";
 import TextArea from "./TextArea";
+"use client";
 
 const ContactForm = () => {
+  const [loading,setLoading] = useState(false);
   async function handleSubmit(e: any) {
+    setLoading(true);
     e.preventDefault();
     const data = {
     name: String(e.target.name.value),
@@ -23,8 +26,16 @@ const ContactForm = () => {
 
     if (response.ok) {
       console.log("Message sent successfully")
+      setLoading(false);
+      // reset the form
+      e.target.name.value = "";
+      e.target.number.value = "";
+      e.target.email.value = "";
+      e.target.subject.value = "";
+      e.target.message.value = "";
     if (!response.ok) {
       console.log("Error sending message")
+      setLoading(false);
     }
   }
 }
@@ -85,7 +96,8 @@ const ContactForm = () => {
           />
         </div>
         <button
-          className="w-full p-4 mt-4 text-gray-100 bg-[#5651e5]"
+          disabled={loading}
+          className="w-full p-4 mt-4 text-gray-100 bg-[#5651e5] disabled:bg-[#9894df] disabled:text-gray-100"
           type="submit"
         >
           Send Message

@@ -7,7 +7,11 @@ module.exports = {
 
   ],
   theme: {
-    extend: {},
-  },
+    extend: {
+      backgroundImage: theme => ({
+         'cloud': "url('../public/assets/cloud.jpg')",
+      }),
+    },
+},
   plugins: [require('@tailwindcss/forms')],
 }

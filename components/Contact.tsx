@@ -56,7 +56,7 @@ const Contact = () => {
                     </div>
                   </Link>
                   <Link
-                    href="/#resume"
+                    href="../assets/resume.pdf"
                     rel="noopener noreferrer"
                     target="_blank"
                   >

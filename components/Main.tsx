@@ -1,12 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 
 export const Main = () => {
   return (
-    <div id="home" className="w-full md:h-[40vh] pt-32 text-center">
+    <div id="home" className="w-full pt-28 bg-cloud text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="text-sm tracking-widest text-gray-600 uppercase"></p>
@@ -35,7 +34,11 @@ export const Main = () => {
                 <FaGithub />
               </div>
             </Link>
-            <Link href="/#resume" rel="noopener noreferrer" target="_blank">
+            <Link
+              href="../assets/resume.pdf"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
                 <BsFillPersonLinesFill />
               </div>

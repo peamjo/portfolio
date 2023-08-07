@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import twitchImg from "../public/assets/projects/twitch.jpg";
+import project1Img from "../public/assets/projects/project1.png";
+import project2Img from "../public/assets/projects/project2.png";
+import project3Img from "../public/assets/projects/project3.png";
+import comingsoonImg from "../public/assets/coming-soon.jpg";
 
 const Projects = () => {
   return (
@@ -16,23 +16,23 @@ const Projects = () => {
         <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
             title="Deploy a Wordpress Website on AWS"
-            backgroundImg={propertyImg}
-            projectUrl="/property"
+            backgroundImg={project1Img}
+            projectUrl="/property1"
           />
           <ProjectItem
             title="Build a Serverless Web Application"
-            backgroundImg={cryptoImg}
-            projectUrl="/property"
+            backgroundImg={project2Img}
+            projectUrl="/property2"
           />
           <ProjectItem
             title="Using Terraform to build a Dev Environment"
-            backgroundImg={netflixImg}
-            projectUrl="/property"
+            backgroundImg={project3Img}
+            projectUrl="/property3"
           />
           <ProjectItem
             title="Coming Soon..."
-            backgroundImg={twitchImg}
-            projectUrl="/"
+            backgroundImg={comingsoonImg}
+            projectUrl="/#projects"
           />
         </div>
       </div>
