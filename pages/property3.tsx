@@ -7,10 +7,10 @@ const Property3 = () => {
       <Property
         title="Using Terraform to build a Dev Environment"
         tech_all="Terraform"
-        overview="test"
+        overview="For this project I wanted to learn about IaaS (Infrastructure as a Service) so I built a Dev Environment using Terraform.
+It was the first time using any IaaS platform and it allowed me to understand how it worked a lot more. By not accessing the actual AWS and being able to interact with a lot of the services using code instead, I understood a lot more about how IaaS works and enjoyed working with it."
         background={project3Img}
-        demo="http://localhost:3000/"
-        code="http://localhost:3000/"
+        demo="/assets/terraform.png"
         tech_list={["Terraform", "IAM", "VPC", "EC2"]}
       />
     </div>

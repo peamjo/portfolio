@@ -11,7 +11,6 @@ interface PropertyProps {
   overview: string;
   background: any;
   demo: string;
-  code: string;
   tech_list: Array<string>;
 }
 
@@ -21,7 +20,6 @@ const Property = ({
   overview,
   background,
   demo,
-  code,
   tech_list,
 }: PropertyProps) => {
   return (
@@ -49,15 +47,17 @@ const Property = ({
     uppercase bg-gradient-to-r from-[#5651e5] to-[#7090ff] text-white cursor-pointer"
             href={demo}
           >
-            Demo
+            Media Demo
           </Link>
-          <Link
-            className="px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl 
-    uppercase bg-gradient-to-r from-[#5651e5] to-[#7090ff] text-white cursor-pointer"
-            href={code}
-          >
-            Code
-          </Link>
+          <div className="mt-8">
+            <Link
+              className="px-8 py-2 shadow-xl shadow-gray-400 rounded-xl 
+    uppercase bg-gradient-to-r from-[#e43629] to-[#ffa970] text-white cursor-pointer"
+              href="/#projects"
+            >
+              Back
+            </Link>
+          </div>
         </div>
         <div className="col-span-4 p-4 shadow-xl md:col-span-1 shadow-gray-400 rounded-xl">
           <p className="pb-2 font-bold text-center">Technologies</p>
@@ -69,15 +69,6 @@ const Property = ({
               </p>
             ))}
           </div>
-        </div>
-        <div>
-          <Link
-            className="px-8 py-2 shadow-xl shadow-gray-400 rounded-xl 
-    uppercase bg-gradient-to-r from-[#e43629] to-[#ffa970] text-white cursor-pointer"
-            href="/#projects"
-          >
-            Back
-          </Link>
         </div>
       </div>
     </div>

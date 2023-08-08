@@ -55,7 +55,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="flex flex-col">
-            <label className="py-2 text-sm uppercase">Number</label>
+            <label className="py-2 text-sm uppercase">Phone Number</label>
             <input
               className="flex p-3 border-2 border-gray-300 rounded-lg"
               type="number"

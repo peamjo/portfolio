@@ -7,24 +7,14 @@ const Property1 = () => {
       <Property
         title="Deploy a Wordpress Website on AWS"
         tech_all="VPC / NAT Gateway / Security Groups"
-        overview="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-        deserunt mollit anim id est laborum.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-        deserunt mollit anim id est laborum.
+        overview="This was the first project on AWS that I did, in order to understand more about the platform as a whole. 
+ First, I created a VPC, and then the Internet Gateway, Subnets, Route Table and NAT Gateway in order to allow the VPC to be able to be connected to the internet.
+Then I configured the security groups in order to allow access via only the ports that are necessary.
+After that I used Putty to SSH to the VPC to install Wordpress.
+I also bought a domain name and registered for the SSL AWS certificate to make sure the security on the website is maintained.
         "
         background={project1Img}
-        demo="http://localhost:3000/"
-        code="http://localhost:3000/"
+        demo="/project1-video.mkv"
         tech_list={[
           "VPC",
           "NAT Gateway",
