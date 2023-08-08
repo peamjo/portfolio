@@ -145,7 +145,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between w-full">
               <Link href="/">
                 <Image
-                  src="/assets/pj_Logo.png"
+                  src="/assets/pj_logo.png"
                   width="100"
                   height="150"
                   alt="/"
@@ -160,7 +160,7 @@ const Navbar = () => {
             </div>
             <div className="my-4 border-b border-gray-300">
               <p className="w-[85%] md:[90%] py-4">
-                Welcome to Peam Jo`&apos;`s Website
+                Welcome to Peam Jo&apos;s Website
               </p>
             </div>
           </div>
@@ -227,7 +227,7 @@ const Navbar = () => {
                 </li>
               </LinkScroll>
             </ul>
-            <div className="pt-40">
+            <div className="pt-10">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let&apos;s Connect
               </p>

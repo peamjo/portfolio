@@ -12,7 +12,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
             After graduating with a degree in Information Science from Cornell
-            University, I started working with my family`&apos;`s company,
+            University, I started working with my family&apos;s company,
             developing properties around Bangkok. After a few years, I have
             decided to pursue a career in Cloud Computing, since I believe it is
             a technology that can be utilized by many existing companies around
