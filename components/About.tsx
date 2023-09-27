@@ -39,7 +39,7 @@ const About = () => {
             certicate.
           </p>
           <p className="py-2 text-gray-600">
-            I aim to start working in the Cloud industry as a Cloud Engineer /
+            I aim to start working in the Cloud industry as a
             Solutions Architect, to not only gain experience in different
             Clouds, but also develop my skills in communications with business
             clients and customers who want to transition into or improve their
