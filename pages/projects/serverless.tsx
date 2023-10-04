@@ -7,8 +7,7 @@ const Serverless = () => {
       <Property
         title="LevelUp! Lab for Serverless"
         tech_all="Serverless"
-        overview="For this project I wanted to learn about IaC (Infrastructure as Code) so I built a Dev Environment using Terraform.
-It was the first time using any IaC program and it allowed me to understand how it worked a lot more. By not accessing the actual AWS and being able to interact with a lot of the services using code instead, I understood a lot more about how IaC works and enjoyed working with it."
+        overview="I wanted to learn these technologies used here so I decided to create this project. It is basically a simple API-Driven architecturel. When API invokes Lambda, which contains logic for CRUD operations for DynamoDB table, it then processes the logic onto the DynamoDB database."
         background={project5Img}
         demo="/assets/projects/project5.jpg"
         tech_list={["API Gateway", "AWS Lambda", "Amazon DynamoDB"]}

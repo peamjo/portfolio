@@ -7,7 +7,9 @@ const EventDrivenArchitecture = () => {
       <Property
         title="Event Driven Architecture"
         tech_all="Microservices"
-        overview="Create S3 bucket
+        overview="
+        For this project I wanted to explore Event-Driven Architecture, which is the main architecture used with microservices. There are a few services not used here such as AWS EventBridge, which I will explore in upcoming projects.
+        Create S3 bucket
 - First I created the S3 bucket in order for the
 SNS - Standard (not FIFO)
 - Then I created an SNS Topic. This SNS Topic will trigger the SQS Queues whenever there is an EVENT published from the S3 Bucket.
