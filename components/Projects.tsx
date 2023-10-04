@@ -30,9 +30,19 @@ const Projects = () => {
             projectUrl="/property3"
           />
           <ProjectItem
-            title="Coming Soon..."
-            backgroundImg={comingsoonImg}
-            projectUrl="/#projects"
+            title="Jenkins Demo"
+            backgroundImg={project3Img}
+            projectUrl="/property4"
+          />
+          <ProjectItem
+            title="LevelUp! Lab for Serverless"
+            backgroundImg={project3Img}
+            projectUrl="/property5"
+          />
+          <ProjectItem
+            title="Event Driven Architecture"
+            backgroundImg={project3Img}
+            projectUrl="/property6"
           />
         </div>
       </div>
