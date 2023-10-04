@@ -15,9 +15,24 @@ const Projects = () => {
         <h2>What I&apos;ve Built</h2>
         <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
+            title="Jenkins Demo"
+            backgroundImg="C:\Users\Peam\Documents\Programming\Peam Jo Portfolio Website\portfolio\public\assets\projects\project4.png"
+            projectUrl="/property4"
+          />
+          <ProjectItem
+            title="Event Driven Architecture"
+            backgroundImg="C:\Users\Peam\Documents\Programming\Peam Jo Portfolio Website\portfolio\public\assets\projects\project6.png"
+            projectUrl="/property6"
+          />
+          <ProjectItem
             title="Deploy a Wordpress Website on AWS"
             backgroundImg={project1Img}
             projectUrl="/property1"
+          />
+          <ProjectItem
+            title="LevelUp! Lab for Serverless"
+            backgroundImg="C:\Users\Peam\Documents\Programming\Peam Jo Portfolio Website\portfolio\public\assets\projects\project5.jpg"
+            projectUrl="/property5"
           />
           <ProjectItem
             title="Build a Serverless Web Application"
@@ -28,21 +43,6 @@ const Projects = () => {
             title="Using Terraform to build a Dev Environment"
             backgroundImg={project3Img}
             projectUrl="/property3"
-          />
-          <ProjectItem
-            title="Jenkins Demo"
-            backgroundImg={project3Img}
-            projectUrl="/property4"
-          />
-          <ProjectItem
-            title="LevelUp! Lab for Serverless"
-            backgroundImg={project3Img}
-            projectUrl="/property5"
-          />
-          <ProjectItem
-            title="Event Driven Architecture"
-            backgroundImg={project3Img}
-            projectUrl="/property6"
           />
         </div>
       </div>

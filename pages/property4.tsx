@@ -5,8 +5,8 @@ const Property4 = () => {
   return (
     <div>
       <Property
-        title="Using Terraform to build a Dev Environment"
-        tech_all="Terraform"
+        title="Jenkins Demo"
+        tech_all="Jenkins"
         overview="In this project, I want to try creating a CI/CD pipeline to create a stack in CloudFormation using an automation server. I chose to use Jenkins in this project.
 
     1. Install Jenkins from AWS Marketplace
