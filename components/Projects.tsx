@@ -3,6 +3,9 @@ import ProjectItem from "./ProjectItem";
 import project1Img from "../public/assets/projects/project1.png";
 import project2Img from "../public/assets/projects/project2.png";
 import project3Img from "../public/assets/projects/project3.png";
+import project4Img from "../public/assets/projects/project4.png";
+import project5Img from "../public/assets/projects/project5.jpg";
+import project6Img from "../public/assets/projects/project6.png";
 import comingsoonImg from "../public/assets/coming-soon.jpg";
 
 const Projects = () => {
@@ -16,12 +19,12 @@ const Projects = () => {
         <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
             title="Jenkins Demo"
-            backgroundImg="C:\Users\Peam\Documents\Programming\Peam Jo Portfolio Website\portfolio\public\assets\projects\project4.png"
+            backgroundImg={project4Img}
             projectUrl="/property4"
           />
           <ProjectItem
             title="Event Driven Architecture"
-            backgroundImg="C:\Users\Peam\Documents\Programming\Peam Jo Portfolio Website\portfolio\public\assets\projects\project6.png"
+            backgroundImg={project6Img}
             projectUrl="/property6"
           />
           <ProjectItem
@@ -31,7 +34,7 @@ const Projects = () => {
           />
           <ProjectItem
             title="LevelUp! Lab for Serverless"
-            backgroundImg="C:\Users\Peam\Documents\Programming\Peam Jo Portfolio Website\portfolio\public\assets\projects\project5.jpg"
+            backgroundImg={project5Img}
             projectUrl="/property5"
           />
           <ProjectItem
