@@ -47,7 +47,7 @@ const Property = ({
     uppercase bg-gradient-to-r from-[#5651e5] to-[#7090ff] text-white cursor-pointer"
             href={demo}
           >
-            Media Demo
+            Graph / Media Demo
           </Link>
           <div className="mt-8">
             <Link

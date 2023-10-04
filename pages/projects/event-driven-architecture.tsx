@@ -1,7 +1,7 @@
-import Property from "../components/Property";
-import project6Img from "../public/assets/projects/project6.png";
+import Property from "../../components/Property";
+import project6Img from "../../public/assets/projects/project6.png";
 
-const Property6 = () => {
+const EventDrivenArchitecture = () => {
   return (
     <div>
       <Property
@@ -25,11 +25,11 @@ Upload file to test
 Copy file to test
 Check CloudLogs to see notification"
         background={project6Img}
-        demo="/assets/terraform.png"
+        demo="/assets/projects/project6.png"
         tech_list={["S3", "SNS", "SQS", "Lambda"]}
       />
     </div>
   );
 };
 
-export default Property6;
+export default EventDrivenArchitecture;

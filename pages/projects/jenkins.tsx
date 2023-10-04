@@ -1,14 +1,13 @@
-import Property from "../components/Property";
-import project4Img from "../public/assets/projects/project4.png";
+import Property from "../../components/Property";
+import project4Img from "../../public/assets/projects/project4.png";
 
-const Property4 = () => {
+const Jenkins = () => {
   return (
     <div>
       <Property
         title="Jenkins Demo"
         tech_all="Jenkins"
-        overview="In this project, I want to try creating a CI/CD pipeline to create a stack in CloudFormation using an automation server. I chose to use Jenkins in this project.
-
+        overview= "In this project, I want to try creating a CI/CD pipeline to create a stack in CloudFormation using an automation server. I chose to use Jenkins in this project.
     1. Install Jenkins from AWS Marketplace
         a. First I went on the AWS marketplace to look for the Jenkins package. This particular one is run on Debian. 
         b. I then created the Jenkins EC2 instance.
@@ -33,11 +32,11 @@ const Property4 = () => {
     Actually using Jenkins as part of a CI/CD pipeline to make sure that the infrastructure is always ready to be built made it so much easier for me to understand its concept.
     I ran across some unexpected problems and realized that these little things are sometimes inevitable and the more I know and understand the technology to a deeper level, the faster I can be to solve these problems"
         background={project4Img}
-        demo="/assets/terraform.png"
+        demo="/assets/projects/project4.png"
         tech_list={["Jenkins", "EC2", "CloudFormation"]}
       />
     </div>
   );
 };
 
-export default Property4;
+export default Jenkins;

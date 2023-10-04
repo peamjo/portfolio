@@ -1,7 +1,7 @@
-import Property from "../components/Property";
-import project1Img from "../public/assets/projects/project1.png";
+import Property from "../../components/Property";
+import project1Img from "../../public/assets/projects/project1.png";
 
-const Property1 = () => {
+const Wordpress = () => {
   return (
     <div>
       <Property
@@ -28,4 +28,4 @@ I also bought a domain name and registered for the SSL AWS certificate to make s
   );
 };
 
-export default Property1
+export default Wordpress;

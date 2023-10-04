@@ -1,7 +1,7 @@
-import Property from "../components/Property";
-import project2Img from "../public/assets/projects/project2.png";
+import Property from "../../components/Property";
+import project2Img from "../../public/assets/projects/project2.png";
 
-const Property2 = () => {
+const WebApp = () => {
   return (
     <div>
       <Property
@@ -26,4 +26,4 @@ I used AWS Amplify, Cognito, API Gateway, Lambda and DynamoDB."
   );
 };
 
-export default Property2;
+export default WebApp;

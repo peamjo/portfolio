@@ -1,12 +1,13 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
+import * as ProjectsList from "./ProjectsList";
 import project1Img from "../public/assets/projects/project1.png";
 import project2Img from "../public/assets/projects/project2.png";
 import project3Img from "../public/assets/projects/project3.png";
 import project4Img from "../public/assets/projects/project4.png";
 import project5Img from "../public/assets/projects/project5.jpg";
 import project6Img from "../public/assets/projects/project6.png";
-import comingsoonImg from "../public/assets/coming-soon.jpg";
+
 
 const Projects = () => {
   return (
@@ -20,32 +21,32 @@ const Projects = () => {
           <ProjectItem
             title="Jenkins Demo"
             backgroundImg={project4Img}
-            projectUrl="/property4"
+            projectUrl="/projects/jenkins"
           />
           <ProjectItem
             title="Event Driven Architecture"
             backgroundImg={project6Img}
-            projectUrl="/property6"
+            projectUrl="/projects/event-driven-architecture"
           />
           <ProjectItem
             title="Deploy a Wordpress Website on AWS"
             backgroundImg={project1Img}
-            projectUrl="/property1"
+            projectUrl="/projects/wordpress"
           />
           <ProjectItem
             title="LevelUp! Lab for Serverless"
             backgroundImg={project5Img}
-            projectUrl="/property5"
+            projectUrl="/projects/serverless"
           />
           <ProjectItem
             title="Build a Serverless Web Application"
             backgroundImg={project2Img}
-            projectUrl="/property2"
+            projectUrl="/projects/web-app"
           />
           <ProjectItem
             title="Using Terraform to build a Dev Environment"
             backgroundImg={project3Img}
-            projectUrl="/property3"
+            projectUrl="/projects/terraform"
           />
         </div>
       </div>
