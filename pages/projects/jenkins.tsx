@@ -1,5 +1,7 @@
 import Property from "../../components/Property";
 import project4Img from "../../public/assets/projects/project4.png";
+import project42Img from "../../public/assets/projects/project4-2.png";
+
 
 const Jenkins = () => {
   return (
@@ -32,7 +34,7 @@ const Jenkins = () => {
     Actually using Jenkins as part of a CI/CD pipeline to make sure that the infrastructure is always ready to be built made it so much easier for me to understand its concept.
     I ran across some unexpected problems and realized that these little things are sometimes inevitable and the more I know and understand the technology to a deeper level, the faster I can be to solve these problems"
         background={project4Img}
-        demo="/assets/projects/project6.png"
+        demo="/assets/projects/project4-2.png"
         tech_list={["Jenkins", "EC2", "CloudFormation"]}
       />
     </div>
