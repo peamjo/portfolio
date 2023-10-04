@@ -1,5 +1,5 @@
 import Property from "../components/Property";
-import project3Img from "../public/assets/projects/project3.png";
+import project6Img from "../public/assets/projects/project3.png";
 
 const Property6 = () => {
   return (
@@ -24,7 +24,7 @@ SNS subscriptions to SQS queues
 Upload file to test
 Copy file to test
 Check CloudLogs to see notification"
-        background={project3Img}
+        background={project6Img}
         demo="/assets/terraform.png"
         tech_list={["S3", "SNS", "SQS", "Lambda"]}
       />

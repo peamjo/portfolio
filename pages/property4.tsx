@@ -1,5 +1,5 @@
 import Property from "../components/Property";
-import project3Img from "../public/assets/projects/project3.png";
+import project4Img from "../public/assets/projects/project4.png";
 
 const Property4 = () => {
   return (
@@ -32,7 +32,7 @@ const Property4 = () => {
     This project allowed me to understand these AWS and other DevOps services much better. 
     Actually using Jenkins as part of a CI/CD pipeline to make sure that the infrastructure is always ready to be built made it so much easier for me to understand its concept.
     I ran across some unexpected problems and realized that these little things are sometimes inevitable and the more I know and understand the technology to a deeper level, the faster I can be to solve these problems"
-        background={project3Img}
+        background={project4Img}
         demo="/assets/terraform.png"
         tech_list={["Jenkins", "EC2", "CloudFormation"]}
       />
