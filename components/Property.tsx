@@ -59,7 +59,7 @@ const Property = ({
             </Link>
           </div>
         </div>
-        <div className="col-span-4 p-4 shadow-xl md:col-span-1 shadow-gray-400 rounded-xl max-h-4">
+        <div className="col-span-4 p-4 shadow-xl md:col-span-1 shadow-gray-400 rounded-xl max-h-10">
           <p className="pb-2 font-bold text-center">Technologies</p>
           <div className="grid grid-cols-3 md:grid-cols-1">
             {tech_list.map((i) => (
