@@ -1,5 +1,5 @@
 import Property from "../components/Property";
-import project6Img from "../public/assets/projects/project3.png";
+import project6Img from "../public/assets/projects/project6.png";
 
 const Property6 = () => {
   return (

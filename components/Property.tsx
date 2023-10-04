@@ -63,8 +63,8 @@ const Property = ({
           <p className="pb-2 font-bold text-center">Technologies</p>
           <div className="grid grid-cols-3 md:grid-cols-1">
             {tech_list.map((i) => (
-              <p className="flex items-center py-2 max-h-8 text-gray-600" key={i}>
-                <RiRadioButtonFill className="mr-1" />
+              <p className="flex items-center py-2 text-gray-600" key={i}>
+                <RiRadioButtonFill className="mr-1 max-h-8" />
                 {i}
               </p>
             ))}
