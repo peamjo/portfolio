@@ -14,10 +14,9 @@ const About = () => {
             After graduating with a degree in Information Science from Cornell
             University, I started working with my family&apos;s company,
             developing properties around Bangkok. After a few years, I have
-            decided to pursue a career in Cloud Computing, since I believe it is
-            a technology that can be utilized by many existing companies around
-            the world, increasing their efficiency and improving their
-            day-to-day operations.
+            decided to pursue a career in Systems Engineer/Solutions Architect,
+            since I believe that it is an ideal job for me to use both my technical 
+            and sales expertise to an advantage.
           </p>
           <p className="py-2 text-gray-600">
             During my time in the university, I have had the chance to study
@@ -36,14 +35,13 @@ const About = () => {
             </b>{" "}
             certificate alongside the{" "}
             <b className="text-[#5651e5]">AWS Certified Cloud Practitioner</b>{" "}
-            certicate. I am currently working towards the AWS Certified Cloud Associate certificate.
+            certicate. I am currently working towards the AWS Certified Cloud
+            Associate certificate.
           </p>
           <p className="py-2 text-gray-600">
-            I aim to start working in the Cloud industry as a Cloud Engineer/Solutions
-            Architect, to not only gain experience in different Clouds, but also
-            develop my skills in communications with business clients and
-            customers who want to transition into or improve their usage of the
-            Cloud.
+            I aim to start working in the tech industry as a Systems
+            Engineer/Solutions Architect, to not only gain experience, but also develop my skills in communications with
+            business clients and customers who would want to utilize techbnologies like Cybersecurity, Cloud, DevOps, into their daily operations.
           </p>
         </div>
         <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-cl shadow-gray-400 rounded-xl hover:scale-105">
