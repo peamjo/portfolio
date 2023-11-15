@@ -14,7 +14,7 @@ const About = () => {
             After graduating with a degree in Information Science from Cornell
             University, I started working with my family&apos;s company,
             developing properties around Bangkok. After a few years, I have
-            decided to pursue a career in Cybersecurity/Data Engineer, since I
+            decided to pursue a career in Data Analyst, since I
             believe that it is an ideal job for me to use both my technical and
             sales expertise to an advantage.
           </p>
@@ -24,7 +24,7 @@ const About = () => {
             classes like <b className="text-[#5651e5]">Data Science</b> and{" "}
             <b className="text-[#5651e5]">Surveillance & Privacy</b> which
             helped bolster my programming skills and increase my understanding
-            of cybersecurity.
+            of data science and cybersecurity.
           </p>
           <p className="py-2 text-gray-600">
             Since graduating, I also had a chance to study about the Cloud on my
@@ -40,8 +40,8 @@ const About = () => {
             Associate certificate.
           </p>
           <p className="py-2 text-gray-600">
-            I aim to start working in the tech industry as a Cybersecurity/Data
-            Engineer, to not only gain experience, but also develop my skills in
+            I aim to start working in the tech industry as a Data
+            Analyst, to not only gain experience, but also develop my skills in
             communications with business clients and customers who would want to
             utilize these techbnologies into their daily operations.
           </p>
