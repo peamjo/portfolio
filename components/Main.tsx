@@ -13,7 +13,7 @@ export const Main = () => {
             Hi, I&apos;m <span className="text-[#5651e5]">Peam Jo</span>
           </h1>
           <h1 className="py-2 text-gray-700">
-            Systems Engineer/Solutions Architect
+            Cybersecurity/Cloud Engineer
           </h1>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-6">
             <Link
