@@ -14,14 +14,15 @@ const About = () => {
             After graduating with a degree in Information Science from Cornell
             University, I started working with my family&apos;s company,
             developing properties around Bangkok. After a few years, I have
-            decided to pursue a career in Data Analyst, since I
-            believe that it is an ideal job for me to use both my technical and
-            sales expertise to an advantage.
+            decided to pursue a career in Data Consultant, since I believe that
+            it is an ideal job for me to use both my technical and sales
+            expertise to an advantage.
           </p>
           <p className="py-2 text-gray-600">
             During my time in the university, I have had the chance to study
             programming languages, including Python and Java. I also attended
-            classes like <b className="text-[#5651e5]">Data Science</b> and{" "}
+            classes like <b className="text-[#5651e5]">Data Science</b>,{" "}
+            <b className="text-[#5651e5]">Robot Ethics</b> and{" "}
             <b className="text-[#5651e5]">Surveillance & Privacy</b> which
             helped bolster my programming skills and increase my understanding
             of data science and cybersecurity.
@@ -40,8 +41,8 @@ const About = () => {
             Associate certificate.
           </p>
           <p className="py-2 text-gray-600">
-            I aim to start working in the tech industry as a Data
-            Analyst, to not only gain experience, but also develop my skills in
+            I aim to start working in the tech industry as a Data Consultant, to
+            not only gain experience, but also develop my skills in
             communications with business clients and customers who would want to
             utilize these techbnologies into their daily operations.
           </p>
