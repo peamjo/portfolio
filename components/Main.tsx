@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import React from 'react'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import Link from "next/link";
+import React from "react";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export const Main = () => {
   return (
@@ -12,7 +12,7 @@ export const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#5651e5]">Peam Jo</span>
           </h1>
-          <h1 className="py-2 text-gray-700">Data Consultant</h1>
+          <h1 className="py-2 text-gray-700">Cloud Architect</h1>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-6">
             <Link
               href="https://www.linkedin.com/in/peamjo/"
@@ -46,6 +46,6 @@ export const Main = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Main
+export default Main;
