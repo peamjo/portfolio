@@ -44,7 +44,7 @@ const About = () => {
             I aim to start working in the tech industry as a Cloud Architect, to
             not only gain experience, but also develop my skills in
             communications with business clients and customers who would want to
-            utilize these techbnologies into their daily operations.
+            utilize these technologies into their daily operations.
           </p>
         </div>
         <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-cl shadow-gray-400 rounded-xl hover:scale-105">
