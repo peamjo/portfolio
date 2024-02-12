@@ -14,8 +14,8 @@ const About = () => {
             After graduating with a degree in Information Science from Cornell
             University, I started working with my family&apos;s company,
             developing properties around Bangkok. After a few years, I have
-            decided to pursue a career in Cloud Computing, since I believe that
-            it is an ideal job for me to use both my technical and sales
+            decided to pursue a career in Cloud/DevOps, since I believe that
+            it is an ideal job for me to use both my technical
             expertise to an advantage.
           </p>
           <p className="py-2 text-gray-600">
@@ -41,7 +41,7 @@ const About = () => {
             Associate certificate.
           </p>
           <p className="py-2 text-gray-600">
-            I aim to start working in the tech industry as a Cloud Architect, to
+            I aim to start working in the tech industry as a Cloud/DevOps Engineer, to
             not only gain experience, but also develop my skills in
             communications with business clients and customers who would want to
             utilize these technologies into their daily operations.

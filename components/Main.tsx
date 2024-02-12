@@ -12,7 +12,7 @@ export const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#5651e5]">Peam Jo</span>
           </h1>
-          <h1 className="py-2 text-gray-700">Cloud Architect</h1>
+          <h1 className="py-2 text-gray-700">Cloud/DevOps Engineer</h1>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-6">
             <Link
               href="https://www.linkedin.com/in/peamjo/"
