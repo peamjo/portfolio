@@ -28,9 +28,9 @@ const About = () => {
             of data science and cybersecurity.
           </p>
           <p className="py-2 text-gray-600">
-            Since graduating, I also had a chance to study about the Cloud on my
+            Since graduating, I also had a chance to study about the Cloud and DevOps on my
             own. Starting from using Docker in my home NAS, into discovering
-            AWS, I have gained a massive interest in possibilities of the Cloud.
+            AWS, I have gained a massive interest in possibilities of this area.
             This is why I started studying for and attained the{" "}
             <b className="text-[#5651e5]">
               CKA (Certified Kubernetes Administrator)
